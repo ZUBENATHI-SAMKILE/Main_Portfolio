@@ -22,7 +22,7 @@ const PROJECTS = [
     title: 'Movie Tracker',
     desc: 'A movie tracking web application that lets users search for movies, mark them as watched or to-watch, write reviews, and manage their personal movie collection with a clean modern UI.',
     tags: ['React', 'JavaScript', 'REST API', 'CSS3'],
-    type: 'Frontend',
+    type: 'Full Stack',
     color: 'orange',
     featured: true,
     highlights: [
@@ -31,8 +31,8 @@ const PROJECTS = [
       'Write personal reviews and ratings',
       'Personal movie collection dashboard',
     ],
-    github: 'https://github.com/ZUBENATHI-SAMKILE',
-    live: '#',
+    github: 'https://github.com/ZUBENATHI-SAMKILE/cinetrack-backend.git',
+    live: 'https://cinetrack-frontend.vercel.app/',
   },
   {
     title: 'Data Analysis & ML App',
