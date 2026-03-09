@@ -1,7 +1,11 @@
 import { useState } from 'react'
 import { ExternalLink, Github, ChevronDown, ChevronUp } from 'lucide-react'
 
+
+
+
 const PROJECTS = [
+  
   {
     title: 'Library Management System',
     desc: 'Full-stack Library Management System with role-based access for Admin, Librarian, and Member. Features book management, borrowings with auto-fine calculation, reservations, and a dedicated member portal.',
@@ -15,8 +19,8 @@ const PROJECTS = [
       'Member self-registration portal',
       'Dual JWT authentication for staff and members',
     ],
-    github: 'https://github.com/ZUBENATHI-SAMKILE',
-    live: '#',
+    github: 'https://github.com/ZUBENATHI-SAMKILE/library-frontend.git',
+    live: 'https://library-frontend-5v29f2x35-zubenathis-projects.vercel.app',
   },
   {
     title: 'Movie Tracker',
@@ -31,7 +35,7 @@ const PROJECTS = [
       'Write personal reviews and ratings',
       'Personal movie collection dashboard',
     ],
-    github: 'https://github.com/ZUBENATHI-SAMKILE/cinetrack-backend.git',
+    github: 'https://github.com/ZUBENATHI-SAMKILE/cinetrack-frontend.git',
     live: 'https://cinetrack-frontend.vercel.app/',
   },
   {
