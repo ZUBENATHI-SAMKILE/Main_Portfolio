@@ -31,11 +31,38 @@ const CERTS = [
     image: '/certs/meta-frontend.jpg',
   },
   {
+  title: 'Data Science & Analytics',
+  issuer: 'HP LIFE / HP Foundation',
+  year: '2026',
+  type: 'Data Science',
+  color: 'purple',
+  desc: 'Introduction to data science concepts, data-driven decision making, and analytics for business.',
+  image: '/certs/hp-data-science.jpg',
+  },
+  {
+    title: 'Fullstack Web Development',
+    issuer: 'FNB App Academy',
+    year: '2025',
+    type: 'Full Stack',
+    color: 'green',
+    desc: 'Completed FNB App Academy\'s fullstack web development program covering frontend, backend, and deployment.',
+    image: '/certs/fullstack-fnb.jpg',
+  },
+  {
+    title: 'Java Foundations Associate Badge',
+    issuer: 'Oracle',
+    year: '2026',
+    type: 'Badge',
+    color: 'orange',
+    desc: 'Digital badge validating foundational knowledge of Java programming, OOP concepts, and core syntax.',
+    image: '/certs/oracle-java-foundations.jpg',
+  },
+  {
     title: 'Intro to Machine Learning',
     issuer: 'Kaggle',
     year: '2025',
     type: 'Data Science',
-    color: 'orange',
+    color: 'green',
     desc: 'Completed Kaggle\'s hands-on machine learning course covering model training, validation, and key ML concepts using Python.',
     image: '/certs/machine-learning-kaggle.jpg',
   },
@@ -48,15 +75,7 @@ const CERTS = [
     desc: 'Certification covering essential Python libraries for data science including Pandas, NumPy, Matplotlib, and Seaborn.',
     image: '/certs/python-data-science-simplilearn.jpg',
   },
-  {
-    title: 'Fullstack Web Development',
-    issuer: 'FNB App Academy',
-    year: '2025',
-    type: 'Full Stack',
-    color: 'green',
-    desc: 'Completed FNB App Academy\'s fullstack web development program covering frontend, backend, and deployment.',
-    image: '/certs/fullstack-fnb.jpg',
-  },
+  
   
  
   

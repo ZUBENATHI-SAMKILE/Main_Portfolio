@@ -11,7 +11,7 @@ const STATS = [
 const HIGHLIGHTS = [
   { icon: <Code2 size={20} />, title: 'Full Stack Dev', desc: 'React, Django, Node.js, Flask- end-to-end web development.' },
   { icon: <Database size={20} />, title: 'Data Science', desc: 'Python, SQL, ML, Pandas- turning data into insights.' },
-  { icon: <Smartphone size={20} />, title: 'Mobile Dev', desc: 'Java Android— intuitive mobile application development.' },
+  { icon: <Smartphone size={20} />, title: 'Mobile Dev', desc: 'Java Android - intuitive mobile application development.' },
 ]
 
 export default function Home() {
